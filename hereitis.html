@@ -1,19 +1,30 @@
 <html>
 
+<style>
+.top_header_band{display: flex; justify-content:space-between;}
+.links{display: flex; flex-direction: row; gap: 16px;}
+.middle_band{display: flex; padding: 30px;}
+.title{display:flex; flex-direction: column;}
+.text_and_subtext{display: flex; flex-direction: column;gap: 16px;}
+.sign_up{width: 60px;}
+</style>
 
 <!--TOP HEADER-->
 <div class="top_header_band">
 <div class="header_logo">Header Logo</div>
-<div class="header_link one">header link one</div>
+<div class="links"><div class="header_link one">header link one</div>
 <div class="header_link two">header link two</div>
 <div class="header_link three">header link three</div>
+</div>
 </div>
 <!--MIDDLE BAND-->
 
 <div class="middle_band">
+<div class="text_and_subtext">
 <div class="title main">This website is awesome</div>
 <div class="title sub">This website has some subtext that goes here under the main title . It's a smaller font and the color is lower contrast</div>
-<button>Sign up</button>
+<button class="sign_up">Sign up</button> 
+</div>
 <div class="image">this is a placeholder for an image</div>
 </div> 
 
@@ -35,9 +46,9 @@
 <!--END-->
 <div class="white"> 
 <div class="blue">
-<div class="inner_text"></div>
-<div class="button"></div>
+<div class="inner_tex_large">Call to action! It's time!</div>
+<div class="inner_text_small">Sign up for our product by clicking that button right over there!</div>
+<button class="sign_up_2">Sign up</button>
 </div>
 </div>
 </html>
-testing testing 123
