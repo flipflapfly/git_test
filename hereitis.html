@@ -1,23 +1,26 @@
 <html>
 
 <style>
-*{min-width: 0px;}
-.top_header_band{display: flex; justify-content:space-between; flex-shrink: 1; flex-basis: 500px;}
-.header_link{display: flex; flex-basis:auto; flex-shrink: 1;}
+
+.top_header_band{display: flex; justify-content:space-between; flex-basis: 250px;}
 .links{display: flex; flex-direction: row; gap: 16px;}
+.header_logo{border: solid black;display:flex; flex-shrink:1; flex-basis: 100px; min-width: 0px;white-space: nowrap;justify-content: center;}
 .middle_band{display: flex; padding: 30px;}
 .title{display:flex; flex-direction: column;}
 .text_and_subtext{display: flex; flex-direction: column;gap: 16px;}
 .sign_up_2{width: 70px;height: 30px; border-radius: 15px; white-space: nowrap;}
-.boxes{display: flex; flex-direction: row;justify-content: space-evenly; padding: 30px;}
-.bluebox{width: 100px; height:100px; border: solid blue;}
+.boxes{display: flex; flex-direction: row;justify-content: space-evenly; padding: 30px; flex-shrink: 1; min-width: 400px;}
+.bluebox{border: solid blue;}
 .bluebox{border-radius: 15px}
+.bluebox{display: flex;flex-basis:100px; height: 100px; min-width: 0px; flex-shrink: 1;}
 .grey_quote_box{display: flex; flex-direction: column; padding: 100px; background-color: grey;}
 .Dude{display: flex; justify-content: right;}
 .white{display: flex; justify-content: center; padding: 80px}
-.blue{width: 500px;height: 50px; background-color:blue;color: white;border-radius: 5px; padding:10px}
 .left_shift{display: flex; justify-content: left;}
 .small{display: flex; flex-direction: row;white-space: nowrap;align-items: center;}
+.box{min-width: 0px;}
+.blue{display:flex;flex-basis: 500px;height: 50px; background-color:blue;color: white;border-radius: 5px; padding:10px}
+.inner_text_large{display: flex; flex-direction:row;}
 </style>
 
 <!--TOP HEADER-->
@@ -57,8 +60,8 @@
 <!--END-->
 <div class="white"> 
 <div class="blue">
-<div class="action"><div class="inner_text_large">Call to action! It's time!</div> </div>
-<div class="small"><div class="inner_text_small">Sign up for our product by clicking that button right over there!</div>
+<div class="inner_text_large">Call to action! It's time!</div>
+<div class="inner_text_small">Sign up for our product by clicking that button right over there!</div>
 <button class="sign_up_2">Sign up</button></div>
 </div>
 </div>
