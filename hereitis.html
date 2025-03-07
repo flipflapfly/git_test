@@ -4,11 +4,11 @@
 
 .top_header_band{display: flex; justify-content:space-between; flex-basis: 250px;}
 .links{display: flex; flex-direction: row; gap: 16px;}
-.header_logo{border: solid black;display:flex; flex-shrink:1; flex-basis: 100px; min-width: 0px;white-space: nowrap;justify-content: center;}
+.header_logo{border: solid black;display:flex; flex-shrink:1; flex-basis: 100px; min-width: 0px;height: auto; white-space: nowrap;justify-content: center;}
 .middle_band{display: flex; padding: 30px;}
 .title{display:flex; flex-direction: column;}
 .text_and_subtext{display: flex; flex-direction: column;gap: 16px;}
-.sign_up_2{width: 70px;height: 30px; border-radius: 15px; white-space: nowrap;}
+.sign_up_2{width: 70px;height: 30px; border-radius: 15px; white-space: nowrap;align-self:center ;}
 .boxes{display: flex; flex-direction: row;justify-content: space-evenly; padding: 30px; flex-shrink: 1; min-width: 400px;}
 .bluebox{border: solid blue;}
 .bluebox{border-radius: 15px}
@@ -19,8 +19,8 @@
 .left_shift{display: flex; justify-content: left;}
 .small{display: flex; flex-direction: row;white-space: nowrap;align-items: center;}
 .box{min-width: 0px;}
-.blue{display:flex;flex-basis: 500px;height: 50px; background-color:blue;color: white;border-radius: 5px; padding:10px}
-.inner_text_large{display: flex; flex-direction:row;}
+.blue{display:flex;flex-direction:row; flex-basis: 500px;height: 50px; background-color:blue;color: white;border-radius: 5px; padding:10px; justify-content: center;align-items: stretch;height: auto;}
+.inner_text_large{display: flex; flex-direction:column;white-space: nowrap;}
 </style>
 
 <!--TOP HEADER-->
@@ -60,8 +60,10 @@
 <!--END-->
 <div class="white"> 
 <div class="blue">
+<div class="blue_text">
 <div class="inner_text_large">Call to action! It's time!</div>
 <div class="inner_text_small">Sign up for our product by clicking that button right over there!</div>
+</div>
 <button class="sign_up_2">Sign up</button></div>
 </div>
 </div>
